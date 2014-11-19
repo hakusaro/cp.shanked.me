@@ -20,6 +20,11 @@ There are several routes. Right now, all are commented out and replaced with an 
 * ````/rhs```` - Displays a calculation for Rangeview High School's Any Key team in relation to progression towards the National Finals competition. Displays the national finalist data based on live data. Unfortunately, this data was not exported, and is not functional.
 * ````/allservice```` - Displays the national finalist data for the all service division based on live data. Unfortunately, this data was not exported, and is not functional.
 
+## Screenshots
+
+![](http://puu.sh/cX06V/19233abfd4.png)
+![](http://puu.sh/cX09c/a1f1fda926.png)
+
 ## Caveats and more
 
 This is very old. It's hard coded to look for scores at the old score system URL, and does a lot of bad parsing that you shouldn't ever, ever do when you have XPath. It crawled on every page visit, or, if the server was unreachable, pulled data from Redis as a cache.
